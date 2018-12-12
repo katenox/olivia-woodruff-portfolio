@@ -1,0 +1,66 @@
+/* simple website as a Codecademy project */
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+.header {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about {
+    color: azure;
+    font-weight: bold;
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+
+.projects {
+    
+}
+
+main {
+    display: block;
+}
+
+.web, .design {
+    box-sizing: border-box;
+    border: 3px solid cornflowerblue;
+    width: 350px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+
+}
+
+.web {
+    display: inline-block;
+    
+    
+}
+
+.design {
+    display: inline-block;
+    
+}
+
+.contact {
+    background-color: cornflowerblue;
+    
+}
+
+.contact h2 {
+    color: antiquewhite;
+    
+}
